@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import Map from './component/Map';
+import PlayRoom from './container/playRoom';
 
 function App() {
   return (
     <div className="App">
-      <Map />
+      <PlayRoom />
     </div>
   );
 }

@@ -10,7 +10,7 @@ export default function Map() {
     return (
         <div className='map'> 
         <HexGrid width={'60vw'} height={'40vh'}>
-          <Layout size={{ x: 6, y: 6 }} spacing={1} origin={{x: 0, y: 0}}>
+          <Layout size={{ x: 6, y: 6 }} spacing={1.1} origin={{x: 0, y: 0}}>
             {num.map(n => {
                 return num.map( n2 => {
                     return <Hexagon q={n} r={-n2} s={0} />
