@@ -6,7 +6,7 @@ import PlayRoom from './container/playRoom';
 function App() {
   return (
     <div className="App">
-      <PlayRoom />
+      
     </div>
   );
 }
